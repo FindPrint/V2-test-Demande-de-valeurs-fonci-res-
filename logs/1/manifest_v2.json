@@ -1,0 +1,35 @@
+{
+  "seed": 123,
+  "fitted_params_v2": {
+    "a_T": 13.246475094537846,
+    "b": 1e-06,
+    "m0": 0.0,
+    "tau_m": 49.998493392009436,
+    "D": 0.5,
+    "mse_train": 0.24680589634371355,
+    "mse_val": 0.8889049586504204,
+    "success": true
+  },
+  "metrics_ablation_v2": [
+    {
+      "scenario": "full_v2",
+      "MSE_val": 0.8889049586504204
+    },
+    {
+      "scenario": "no_linear",
+      "MSE_val": 1.2230733697053133
+    },
+    {
+      "scenario": "no_cubic",
+      "MSE_val": 0.8889049586506415
+    },
+    {
+      "scenario": "no_memory",
+      "MSE_val": 0.8889049586504204
+    },
+    {
+      "scenario": "no_noise",
+      "MSE_val": 0.8944519363841272
+    }
+  ]
+}
