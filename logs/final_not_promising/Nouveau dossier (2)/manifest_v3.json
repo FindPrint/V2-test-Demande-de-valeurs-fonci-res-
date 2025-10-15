@@ -1,0 +1,60 @@
+{
+  "seed": 202,
+  "fitted_params_v3": {
+    "a_T": 12.04657225815575,
+    "b": 1e-06,
+    "m1": 0.0,
+    "tau1": 29.999684954625078,
+    "m2": 0.0,
+    "tau2": 250.0,
+    "gain_h": 0.0,
+    "D": 0.08346453578164267,
+    "mse_train": 0.2456484972699775,
+    "mse_val": 0.8912688495314577,
+    "mse_global": 0.43933460294842147,
+    "success": true,
+    "nit": 17,
+    "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+    "lam_b": 0.001,
+    "lam_m1": 0.001,
+    "lam_m2": 0.001,
+    "lam_D": 0.1
+  },
+  "metrics_ablation_v3": [
+    {
+      "scenario": "full_v3",
+      "MSE_val": 0.8912688495314577
+    },
+    {
+      "scenario": "no_linear",
+      "MSE_val": 1.2006446895088425
+    },
+    {
+      "scenario": "no_cubic",
+      "MSE_val": 0.8912688495321
+    },
+    {
+      "scenario": "no_mem1",
+      "MSE_val": 0.8912688495314577
+    },
+    {
+      "scenario": "no_mem2",
+      "MSE_val": 0.8912688495314577
+    },
+    {
+      "scenario": "no_field",
+      "MSE_val": 0.8912688495314577
+    },
+    {
+      "scenario": "no_noise",
+      "MSE_val": 0.8944765772634008
+    }
+  ],
+  "files": {
+    "sim_v3": "data/simulation_v3.csv",
+    "fitted_v3": "models/fitted_params_v3.csv",
+    "metrics_v3": "data/metrics_v3.csv",
+    "ablation_v3": "data/simulation_ablation_v3.csv",
+    "metrics_ablation_v3": "data/metrics_ablation_v3.csv"
+  }
+}

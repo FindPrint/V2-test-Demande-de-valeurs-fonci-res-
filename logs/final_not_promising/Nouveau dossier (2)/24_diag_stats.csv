@@ -1,0 +1,10 @@
+,0
+phi_mean,0.22515577956989252
+phi_std,1.6484352498716492
+exog_names,h_refi;h_euribor
+n_exog,2
+h_refi_mean,0.0
+h_refi_std,1.0
+h_euribor_mean,3.700743415417188e-17
+h_euribor_std,1.0
+max_pair_corr,0.9876396202448061

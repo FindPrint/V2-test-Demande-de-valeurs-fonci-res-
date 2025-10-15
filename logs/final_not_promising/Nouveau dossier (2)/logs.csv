@@ -1,0 +1,51 @@
+timestamp,level,message
+2025-10-15T10:35:43.799116Z,INFO,Cellule 1 exécutée : environnement initialisé, dossiers créés, logger configuré.
+2025-10-15T10:35:47.267355Z,INFO,Téléchargement du fichier ZIP depuis https://www.data.gouv.fr/api/1/datasets/r/5ffa8553-0e8f-4622-add9-5c0b593ca1f8
+2025-10-15T10:35:50.490517Z,INFO,Archive sauvegardée : data/valeurs_foncieres_2024.zip
+2025-10-15T10:35:53.002325Z,INFO,Archive extraite dans data/valeurs_foncieres_2024
+2025-10-15T10:35:53.005469Z,INFO,Fichier principal détecté : data/valeurs_foncieres_2024/ValeursFoncieres-2024.txt
+2025-10-15T10:35:53.949934Z,INFO,Extrait chargé : 100000 lignes, 43 colonnes
+2025-10-15T10:35:54.347540Z,INFO,Copie brute sauvegardée : data_copies/raw_data.csv
+2025-10-15T10:35:57.837738Z,INFO,Paramètres universels définis et sauvegardés : {'kappa': 0.1, 'alpha': 1.0, 'b': 0.01, 'D': 0.05, 'T_c': 1.0, 'delta_T': 1.0, 'n': 1000, 'd': 6, 'T_log': np.float64(13.815510557964274), 'T_star': np.float64(12.815510557964274), 'a_T': np.float64(12.815510557964274)}
+2025-10-15T10:36:01.490300Z,INFO,Paramètres chargés pour discrétisation : a_T=12.815510557964274, Nt=1000
+2025-10-15T10:36:01.613038Z,INFO,Grilles sauvegardées : data/grids.npy, data/grids.csv, data/memory_kernel.csv
+2025-10-15T10:36:07.512529Z,INFO,Cellule 5 : Grilles chargées (Nt=1000). Début fitting.
+2025-10-15T10:36:07.920379Z,INFO,Optimisation convergée en 5 itérations, MSE=0.440108
+2025-10-15T10:36:07.958178Z,INFO,Paramètres fittés sauvegardés : models/fitted_params.csv, copie copiemodels/fitted_params.npy
+2025-10-15T10:36:07.963174Z,INFO,Simulation sauvegardée : data/simulation.csv, copie data_copies/simulation_copy.npy
+2025-10-15T10:36:15.213178Z,INFO,Scenario full MSE=0.439844
+2025-10-15T10:36:15.230135Z,INFO,Scenario no_linear MSE=0.985186
+2025-10-15T10:36:15.243356Z,INFO,Scenario no_cubic MSE=0.439844
+2025-10-15T10:36:15.256026Z,INFO,Scenario no_memory MSE=0.439844
+2025-10-15T10:36:15.268992Z,INFO,Scenario no_field MSE=0.439844
+2025-10-15T10:36:15.286699Z,INFO,Scenario no_noise MSE=0.440108
+2025-10-15T10:36:15.300690Z,INFO,Scenario with_Tlog MSE=1.204317
+2025-10-15T10:36:15.335061Z,INFO,Ablation sauvegardée : data/simulation_ablation.csv
+2025-10-15T10:36:15.336760Z,INFO,Métriques sauvegardées : data/metrics.csv
+2025-10-15T10:37:09.412575Z,INFO,Cellule 7 : Analyse des termes et visualisations générées.
+2025-10-15T10:37:19.059707Z,INFO,Cellule 8 : Manifeste et résumé final générés.
+2025-10-15T19:14:17.348066Z,INFO,Cellule 1 exécutée : environnement initialisé, dossiers créés, logger configuré.
+2025-10-15T19:14:17.433244Z,INFO,Téléchargement du fichier ZIP depuis https://www.data.gouv.fr/api/1/datasets/r/5ffa8553-0e8f-4622-add9-5c0b593ca1f8
+2025-10-15T19:14:21.070796Z,INFO,Archive sauvegardée : data/valeurs_foncieres_2024.zip
+2025-10-15T19:14:25.251596Z,INFO,Archive extraite dans data/valeurs_foncieres_2024
+2025-10-15T19:14:25.255395Z,INFO,Fichier principal détecté : data/valeurs_foncieres_2024/ValeursFoncieres-2024.txt
+2025-10-15T19:14:27.060850Z,INFO,Extrait chargé : 100000 lignes, 43 colonnes
+2025-10-15T19:14:27.538221Z,INFO,Copie brute sauvegardée : data_copies/raw_data.csv
+2025-10-15T19:14:27.568310Z,INFO,Paramètres universels définis et sauvegardés : {'kappa': 0.1, 'alpha': 1.0, 'b': 0.01, 'D': 0.05, 'T_c': 1.0, 'delta_T': 1.0, 'n': 1000, 'd': 6, 'T_log': np.float64(13.815510557964274), 'T_star': np.float64(12.815510557964274), 'a_T': np.float64(12.815510557964274)}
+2025-10-15T19:14:27.602659Z,INFO,Paramètres chargés pour discrétisation : a_T=12.815510557964274, Nt=1000
+2025-10-15T19:14:27.708071Z,INFO,Grilles sauvegardées : data/grids.npy, data/grids.csv, data/memory_kernel.csv
+2025-10-15T19:14:28.232260Z,INFO,Cellule 5 : Grilles chargées (Nt=1000). Début fitting.
+2025-10-15T19:14:28.493726Z,INFO,Optimisation convergée en 5 itérations, MSE=0.440108
+2025-10-15T19:14:28.519683Z,INFO,Paramètres fittés sauvegardés : models/fitted_params.csv, copie copiemodels/fitted_params.npy
+2025-10-15T19:14:28.521995Z,INFO,Simulation sauvegardée : data/simulation.csv, copie data_copies/simulation_copy.npy
+2025-10-15T19:14:29.015306Z,INFO,Scenario full MSE=0.439844
+2025-10-15T19:14:29.024663Z,INFO,Scenario no_linear MSE=0.985186
+2025-10-15T19:14:29.036720Z,INFO,Scenario no_cubic MSE=0.439844
+2025-10-15T19:14:29.046126Z,INFO,Scenario no_memory MSE=0.439844
+2025-10-15T19:14:29.055053Z,INFO,Scenario no_field MSE=0.439844
+2025-10-15T19:14:29.067247Z,INFO,Scenario no_noise MSE=0.440108
+2025-10-15T19:14:29.079721Z,INFO,Scenario with_Tlog MSE=1.204317
+2025-10-15T19:14:29.102979Z,INFO,Ablation sauvegardée : data/simulation_ablation.csv
+2025-10-15T19:14:29.105035Z,INFO,Métriques sauvegardées : data/metrics.csv
+2025-10-15T19:14:32.582929Z,INFO,Cellule 7 : Analyse des termes et visualisations générées.
+2025-10-15T19:14:32.623464Z,INFO,Cellule 8 : Manifeste et résumé final générés.
