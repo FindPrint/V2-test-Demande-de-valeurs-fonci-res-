@@ -1,0 +1,3 @@
+lambda_b,lambda_k,out_dir,diagnostics_csv,best_params_csv
+0.1,0.0,/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0,/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0/runs_diagnostics.csv,
+0.01,0.0,/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0,/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0/runs_diagnostics.csv,

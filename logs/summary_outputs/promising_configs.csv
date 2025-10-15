@@ -1,0 +1,3 @@
+lambda_b,lambda_k,count_valid,mse_penalized_median
+0.1,0.0,35,0.9996161485105596
+0.01,0.0,32,0.9996161479510756
