@@ -1,0 +1,358 @@
+timestamp,level,message
+2025-10-15T10:35:43.799116Z,INFO,Cellule 1 exécutée : environnement initialisé, dossiers créés, logger configuré.
+2025-10-15T10:35:47.267355Z,INFO,Téléchargement du fichier ZIP depuis https://www.data.gouv.fr/api/1/datasets/r/5ffa8553-0e8f-4622-add9-5c0b593ca1f8
+2025-10-15T10:35:50.490517Z,INFO,Archive sauvegardée : data/valeurs_foncieres_2024.zip
+2025-10-15T10:35:53.002325Z,INFO,Archive extraite dans data/valeurs_foncieres_2024
+2025-10-15T10:35:53.005469Z,INFO,Fichier principal détecté : data/valeurs_foncieres_2024/ValeursFoncieres-2024.txt
+2025-10-15T10:35:53.949934Z,INFO,Extrait chargé : 100000 lignes, 43 colonnes
+2025-10-15T10:35:54.347540Z,INFO,Copie brute sauvegardée : data_copies/raw_data.csv
+2025-10-15T10:35:57.837738Z,INFO,Paramètres universels définis et sauvegardés : {'kappa': 0.1, 'alpha': 1.0, 'b': 0.01, 'D': 0.05, 'T_c': 1.0, 'delta_T': 1.0, 'n': 1000, 'd': 6, 'T_log': np.float64(13.815510557964274), 'T_star': np.float64(12.815510557964274), 'a_T': np.float64(12.815510557964274)}
+2025-10-15T10:36:01.490300Z,INFO,Paramètres chargés pour discrétisation : a_T=12.815510557964274, Nt=1000
+2025-10-15T10:36:01.613038Z,INFO,Grilles sauvegardées : data/grids.npy, data/grids.csv, data/memory_kernel.csv
+2025-10-15T10:36:07.512529Z,INFO,Cellule 5 : Grilles chargées (Nt=1000). Début fitting.
+2025-10-15T10:36:07.920379Z,INFO,Optimisation convergée en 5 itérations, MSE=0.440108
+2025-10-15T10:36:07.958178Z,INFO,Paramètres fittés sauvegardés : models/fitted_params.csv, copie copiemodels/fitted_params.npy
+2025-10-15T10:36:07.963174Z,INFO,Simulation sauvegardée : data/simulation.csv, copie data_copies/simulation_copy.npy
+2025-10-15T10:36:15.213178Z,INFO,Scenario full MSE=0.439844
+2025-10-15T10:36:15.230135Z,INFO,Scenario no_linear MSE=0.985186
+2025-10-15T10:36:15.243356Z,INFO,Scenario no_cubic MSE=0.439844
+2025-10-15T10:36:15.256026Z,INFO,Scenario no_memory MSE=0.439844
+2025-10-15T10:36:15.268992Z,INFO,Scenario no_field MSE=0.439844
+2025-10-15T10:36:15.286699Z,INFO,Scenario no_noise MSE=0.440108
+2025-10-15T10:36:15.300690Z,INFO,Scenario with_Tlog MSE=1.204317
+2025-10-15T10:36:15.335061Z,INFO,Ablation sauvegardée : data/simulation_ablation.csv
+2025-10-15T10:36:15.336760Z,INFO,Métriques sauvegardées : data/metrics.csv
+2025-10-15T10:37:09.412575Z,INFO,Cellule 7 : Analyse des termes et visualisations générées.
+2025-10-15T10:37:19.059707Z,INFO,Cellule 8 : Manifeste et résumé final générés.
+2025-10-15T19:14:17.348066Z,INFO,Cellule 1 exécutée : environnement initialisé, dossiers créés, logger configuré.
+2025-10-15T19:14:17.433244Z,INFO,Téléchargement du fichier ZIP depuis https://www.data.gouv.fr/api/1/datasets/r/5ffa8553-0e8f-4622-add9-5c0b593ca1f8
+2025-10-15T19:14:21.070796Z,INFO,Archive sauvegardée : data/valeurs_foncieres_2024.zip
+2025-10-15T19:14:25.251596Z,INFO,Archive extraite dans data/valeurs_foncieres_2024
+2025-10-15T19:14:25.255395Z,INFO,Fichier principal détecté : data/valeurs_foncieres_2024/ValeursFoncieres-2024.txt
+2025-10-15T19:14:27.060850Z,INFO,Extrait chargé : 100000 lignes, 43 colonnes
+2025-10-15T19:14:27.538221Z,INFO,Copie brute sauvegardée : data_copies/raw_data.csv
+2025-10-15T19:14:27.568310Z,INFO,Paramètres universels définis et sauvegardés : {'kappa': 0.1, 'alpha': 1.0, 'b': 0.01, 'D': 0.05, 'T_c': 1.0, 'delta_T': 1.0, 'n': 1000, 'd': 6, 'T_log': np.float64(13.815510557964274), 'T_star': np.float64(12.815510557964274), 'a_T': np.float64(12.815510557964274)}
+2025-10-15T19:14:27.602659Z,INFO,Paramètres chargés pour discrétisation : a_T=12.815510557964274, Nt=1000
+2025-10-15T19:14:27.708071Z,INFO,Grilles sauvegardées : data/grids.npy, data/grids.csv, data/memory_kernel.csv
+2025-10-15T19:14:28.232260Z,INFO,Cellule 5 : Grilles chargées (Nt=1000). Début fitting.
+2025-10-15T19:14:28.493726Z,INFO,Optimisation convergée en 5 itérations, MSE=0.440108
+2025-10-15T19:14:28.519683Z,INFO,Paramètres fittés sauvegardés : models/fitted_params.csv, copie copiemodels/fitted_params.npy
+2025-10-15T19:14:28.521995Z,INFO,Simulation sauvegardée : data/simulation.csv, copie data_copies/simulation_copy.npy
+2025-10-15T19:14:29.015306Z,INFO,Scenario full MSE=0.439844
+2025-10-15T19:14:29.024663Z,INFO,Scenario no_linear MSE=0.985186
+2025-10-15T19:14:29.036720Z,INFO,Scenario no_cubic MSE=0.439844
+2025-10-15T19:14:29.046126Z,INFO,Scenario no_memory MSE=0.439844
+2025-10-15T19:14:29.055053Z,INFO,Scenario no_field MSE=0.439844
+2025-10-15T19:14:29.067247Z,INFO,Scenario no_noise MSE=0.440108
+2025-10-15T19:14:29.079721Z,INFO,Scenario with_Tlog MSE=1.204317
+2025-10-15T19:14:29.102979Z,INFO,Ablation sauvegardée : data/simulation_ablation.csv
+2025-10-15T19:14:29.105035Z,INFO,Métriques sauvegardées : data/metrics.csv
+2025-10-15T19:14:32.582929Z,INFO,Cellule 7 : Analyse des termes et visualisations générées.
+2025-10-15T19:14:32.623464Z,INFO,Cellule 8 : Manifeste et résumé final générés.
+2025-10-15T22:31:10.848895Z,INFO,Début de la création de l'archive ZIP des dossiers du projet
+2025-10-15T22:31:10.854568Z,INFO,Ajout du fichier /content/copiemodels/fitted_params.npy à l'archive
+2025-10-15T22:31:10.874764Z,INFO,Ajout du fichier /content/data/simulation_ablation.csv à l'archive
+2025-10-15T22:31:10.883258Z,INFO,Ajout du fichier /content/data/memory_kernel.csv à l'archive
+2025-10-15T22:31:10.895984Z,INFO,Ajout du fichier /content/data/metrics_analysis.csv à l'archive
+2025-10-15T22:31:10.904782Z,INFO,Ajout du fichier /content/data/simulation.csv à l'archive
+2025-10-15T22:31:10.920394Z,INFO,Ajout du fichier /content/data/simulation_ablation_v2.csv à l'archive
+2025-10-15T22:31:10.924300Z,INFO,Ajout du fichier /content/data/grids.npy à l'archive
+2025-10-15T22:31:14.096381Z,INFO,Ajout du fichier /content/data/valeurs_foncieres_2024.zip à l'archive
+2025-10-15T22:31:14.098929Z,INFO,Ajout du fichier /content/data/metrics_ablation_v3.csv à l'archive
+2025-10-15T22:31:14.114827Z,INFO,Ajout du fichier /content/data/simulation_ablation_v3.csv à l'archive
+2025-10-15T22:31:14.117558Z,INFO,Ajout du fichier /content/data/metrics.csv à l'archive
+2025-10-15T22:31:14.122602Z,INFO,Ajout du fichier /content/data/metrics_ablation_v2.csv à l'archive
+2025-10-15T22:31:14.132449Z,INFO,Ajout du fichier /content/data/simulation_v3.csv à l'archive
+2025-10-15T22:31:14.142095Z,INFO,Ajout du fichier /content/data/simulation_v2.csv à l'archive
+2025-10-15T22:31:14.149724Z,INFO,Ajout du fichier /content/data/grids.csv à l'archive
+2025-10-15T22:31:31.931649Z,INFO,Ajout du fichier /content/data/valeurs_foncieres_2024/ValeursFoncieres-2024.txt à l'archive
+2025-10-15T22:31:31.935273Z,INFO,Ajout du fichier /content/data_copies/ECB Data Portal_20251015145207.csv à l'archive
+2025-10-15T22:31:31.943023Z,INFO,Ajout du fichier /content/data_copies/simulation_copy.npy à l'archive
+2025-10-15T22:31:32.025971Z,INFO,Ajout du fichier /content/data_copies/raw_data.csv à l'archive
+2025-10-15T22:31:32.030155Z,INFO,Ajout du fichier /content/data_copies/WEBSTAT-observations-2025-10-15T08_34_48.417-04_00.csv à l'archive
+2025-10-15T22:31:32.037163Z,INFO,Ajout du fichier /content/data_v4/agg_monthly_v4.csv à l'archive
+2025-10-15T22:31:34.500932Z,INFO,Ajout du fichier /content/data_v4/raw_listing_v4.csv à l'archive
+2025-10-15T22:31:34.503677Z,INFO,Ajout du fichier /content/data_v4/series_phi_v4.csv à l'archive
+2025-10-15T22:31:54.147480Z,INFO,Ajout du fichier /content/data_v4/dvf_2023/ValeursFoncieres-2023.txt à l'archive
+2025-10-15T22:32:11.725522Z,INFO,Ajout du fichier /content/data_v4/dvf_2020/ValeursFoncieres-2020.txt à l'archive
+2025-10-15T22:32:34.532182Z,INFO,Ajout du fichier /content/data_v4/dvf_2021/ValeursFoncieres-2021.txt à l'archive
+2025-10-15T22:32:56.828024Z,INFO,Ajout du fichier /content/data_v4/dvf_2022/ValeursFoncieres-2022.txt à l'archive
+2025-10-15T22:32:56.838230Z,INFO,Ajout du fichier /content/images/26_cmp_node_1_L.png à l'archive
+2025-10-15T22:32:56.843159Z,INFO,Ajout du fichier /content/images/26_sweep_grid_k4_t1000.png à l'archive
+2025-10-15T22:32:56.851999Z,INFO,Ajout du fichier /content/images/residuals_full.png à l'archive
+2025-10-15T22:32:56.855878Z,INFO,Ajout du fichier /content/images/26_lambda_hist_b_lb0p01_lk0p01.png à l'archive
+2025-10-15T22:32:56.861237Z,INFO,Ajout du fichier /content/images/23ter_pca_single_traj.png à l'archive
+2025-10-15T22:32:56.868818Z,INFO,Ajout du fichier /content/images/26_cmp_node_2_L_sym.png à l'archive
+2025-10-15T22:32:56.872120Z,INFO,Ajout du fichier /content/images/26_lambda_scatter_b_vs_kappa_lb0p01_lk0p01.png à l'archive
+2025-10-15T22:32:56.878546Z,INFO,Ajout du fichier /content/images/26_sweep_mean_k4_t50000.png à l'archive
+2025-10-15T22:32:56.881774Z,INFO,Ajout du fichier /content/images/26_lambda_hist_a_lb0p1_lk0p0.png à l'archive
+2025-10-15T22:32:56.886598Z,INFO,Ajout du fichier /content/images/26_sweep_grid_k3_t50000.png à l'archive
+2025-10-15T22:32:56.893246Z,INFO,Ajout du fichier /content/images/26_l2_mean_k3_t1000.png à l'archive
+2025-10-15T22:32:56.900427Z,INFO,Ajout du fichier /content/images/26_cmp_node_3_L_sym.png à l'archive
+2025-10-15T22:32:56.914436Z,INFO,Ajout du fichier /content/images/26_final_boot_kde_grid.png à l'archive
+2025-10-15T22:32:56.924498Z,INFO,Ajout du fichier /content/images/26_noffill_node_SSE_L_comb.png à l'archive
+2025-10-15T22:32:56.942078Z,INFO,Ajout du fichier /content/images/comp_v1_v2_trajectoires.png à l'archive
+2025-10-15T22:32:56.952777Z,INFO,Ajout du fichier /content/images/26_sweep_mean_k3_t50000.png à l'archive
+2025-10-15T22:32:56.959529Z,INFO,Ajout du fichier /content/images/26_l2_grid_k1_t50000.png à l'archive
+2025-10-15T22:32:56.965435Z,INFO,Ajout du fichier /content/images/26_final_boot_kde_b.png à l'archive
+2025-10-15T22:32:56.975331Z,INFO,Ajout du fichier /content/images/26_sweep_mean_k3_t10000.png à l'archive
+2025-10-15T22:32:56.985976Z,INFO,Ajout du fichier /content/images/26_sweep_mean_k4_t10000.png à l'archive
+2025-10-15T22:32:56.991384Z,INFO,Ajout du fichier /content/images/26_sweep_grid_k1_t50000.png à l'archive
+2025-10-15T22:32:56.995277Z,INFO,Ajout du fichier /content/images/26_lambda_hist_m_lb0p01_lk0p0.png à l'archive
+2025-10-15T22:32:57.014497Z,INFO,Ajout du fichier /content/images/v4_ext_multi_contributions.png à l'archive
+2025-10-15T22:32:57.021756Z,INFO,Ajout du fichier /content/images/26_lambda_scatter_a_vs_kappa_lb0p1_lk0p0.png à l'archive
+2025-10-15T22:32:57.026072Z,INFO,Ajout du fichier /content/images/kappa_hist_lb0.01_lk0.0.png à l'archive
+2025-10-15T22:32:57.031892Z,INFO,Ajout du fichier /content/images/26_l2_mean_k2_t10000.png à l'archive
+2025-10-15T22:32:57.038700Z,INFO,Ajout du fichier /content/images/26_sweep_node_mean_k1_t1000.png à l'archive
+2025-10-15T22:32:57.047252Z,INFO,Ajout du fichier /content/images/26_sweep_mean_k2_t10000.png à l'archive
+2025-10-15T22:32:57.058024Z,INFO,Ajout du fichier /content/images/26_noffill_node_HSI_L_sym.png à l'archive
+2025-10-15T22:32:57.063866Z,INFO,Ajout du fichier /content/images/26_l2_grid_k4_t1000.png à l'archive
+2025-10-15T22:32:57.069138Z,INFO,Ajout du fichier /content/images/kappa_hist_lb0.1_lk0.0.png à l'archive
+2025-10-15T22:32:57.077565Z,INFO,Ajout du fichier /content/images/26_cmp_node_0_L_sym.png à l'archive
+2025-10-15T22:32:57.099047Z,INFO,Ajout du fichier /content/images/comp_v4_v4ext_residus.png à l'archive
+2025-10-15T22:32:57.109886Z,INFO,Ajout du fichier /content/images/v4_ext_euribor_residus.png à l'archive
+2025-10-15T22:32:57.119578Z,INFO,Ajout du fichier /content/images/26_kappa_grid.png à l'archive
+2025-10-15T22:32:57.124909Z,INFO,Ajout du fichier /content/images/26_lambda_hist_kappa_lb0p01_lk0p01.png à l'archive
+2025-10-15T22:32:57.139572Z,INFO,Ajout du fichier /content/images/26_cmp_kappa_grid_L_vs_Lsym.png à l'archive
+2025-10-15T22:32:57.148444Z,INFO,Ajout du fichier /content/images/26_sweep_node_mean_k3_t10000.png à l'archive
+2025-10-15T22:32:57.159742Z,INFO,Ajout du fichier /content/images/26_noffill_node_SSE_L_sym.png à l'archive
+2025-10-15T22:32:57.171596Z,INFO,Ajout du fichier /content/images/comp_v1_v4_mse.png à l'archive
+2025-10-15T22:32:57.182025Z,INFO,Ajout du fichier /content/images/26_noffill_node_SZ_L_sym.png à l'archive
+2025-10-15T22:32:57.189846Z,INFO,Ajout du fichier /content/images/comp_v1_v2_mse.png à l'archive
+2025-10-15T22:32:57.201068Z,INFO,Ajout du fichier /content/images/comp_v4_triple_mse.png à l'archive
+2025-10-15T22:32:57.210722Z,INFO,Ajout du fichier /content/images/26_sweep_node_mean_k2_t10000.png à l'archive
+2025-10-15T22:32:57.218524Z,INFO,Ajout du fichier /content/images/ablation_mse_bar.png à l'archive
+2025-10-15T22:32:57.224299Z,INFO,Ajout du fichier /content/images/26_lambda_hist_a_lb0p01_lk0p01.png à l'archive
+2025-10-15T22:32:57.243642Z,INFO,Ajout du fichier /content/images/26_mean_traj.png à l'archive
+2025-10-15T22:32:57.251869Z,INFO,Ajout du fichier /content/images/26_sweep_mean_k1_t50000.png à l'archive
+2025-10-15T22:32:57.256297Z,INFO,Ajout du fichier /content/images/26_l2_grid_k2_t50000.png à l'archive
+2025-10-15T22:32:57.260702Z,INFO,Ajout du fichier /content/images/23ter_exogenes.png à l'archive
+2025-10-15T22:32:57.264236Z,INFO,Ajout du fichier /content/images/26_lambda_hist_kappa_lb0p1_lk0p0.png à l'archive
+2025-10-15T22:32:57.272101Z,INFO,Ajout du fichier /content/images/24bis_pca_contrib.png à l'archive
+2025-10-15T22:32:57.279267Z,INFO,Ajout du fichier /content/images/26_sweep_mean_k2_t1000.png à l'archive
+2025-10-15T22:32:57.283550Z,INFO,Ajout du fichier /content/images/26_lambda_scatter_a_vs_kappa_lb0p01_lk0p0.png à l'archive
+2025-10-15T22:32:57.287505Z,INFO,Ajout du fichier /content/images/26_lambda_scatter_a_vs_kappa_lb0p01_lk0p01.png à l'archive
+2025-10-15T22:32:57.290831Z,INFO,Ajout du fichier /content/images/kappa_hist_lb0.01_lk0.01.png à l'archive
+2025-10-15T22:32:57.294817Z,INFO,Ajout du fichier /content/images/26_l2_grid_k1_t10000.png à l'archive
+2025-10-15T22:32:57.298337Z,INFO,Ajout du fichier /content/images/26_l2_grid_k2_t1000.png à l'archive
+2025-10-15T22:32:57.339836Z,INFO,Ajout du fichier /content/images/rapport_final_overview.png à l'archive
+2025-10-15T22:32:57.355859Z,INFO,Ajout du fichier /content/images/comp_v1_v4_residus.png à l'archive
+2025-10-15T22:32:57.363247Z,INFO,Ajout du fichier /content/images/v4_ext_multi_residus.png à l'archive
+2025-10-15T22:32:57.369800Z,INFO,Ajout du fichier /content/images/26_sweep_mean_k2_t50000.png à l'archive
+2025-10-15T22:32:57.372716Z,INFO,Ajout du fichier /content/images/26_lambda_hist_m_lb0p01_lk0p01.png à l'archive
+2025-10-15T22:32:57.387024Z,INFO,Ajout du fichier /content/images/26_final_boot_kde_grid_stats.png à l'archive
+2025-10-15T22:32:57.400868Z,INFO,Ajout du fichier /content/images/comp_v1_v2_residus.png à l'archive
+2025-10-15T22:32:57.410888Z,INFO,Ajout du fichier /content/images/26_l2_mean_k1_t10000.png à l'archive
+2025-10-15T22:32:57.419898Z,INFO,Ajout du fichier /content/images/26_l2_mean_k4_t1000.png à l'archive
+2025-10-15T22:32:57.423000Z,INFO,Ajout du fichier /content/images/26_final_boot_m.png à l'archive
+2025-10-15T22:32:57.430014Z,INFO,Ajout du fichier /content/images/26_sweep_node_mean_k3_t1000.png à l'archive
+2025-10-15T22:32:57.434785Z,INFO,Ajout du fichier /content/images/26_lambda_b_vs_lambda_b.png à l'archive
+2025-10-15T22:32:57.439685Z,INFO,Ajout du fichier /content/images/26_sweep_node_mean_k4_t50000.png à l'archive
+2025-10-15T22:32:57.442093Z,INFO,Ajout du fichier /content/images/23ter_phi_vs_refi.png à l'archive
+2025-10-15T22:32:57.452015Z,INFO,Ajout du fichier /content/images/rapport_final_mse.png à l'archive
+2025-10-15T22:32:57.459756Z,INFO,Ajout du fichier /content/images/26_noffill_kappa_grid.png à l'archive
+2025-10-15T22:32:57.465961Z,INFO,Ajout du fichier /content/images/v4_ext_refi_residus.png à l'archive
+2025-10-15T22:32:57.470477Z,INFO,Ajout du fichier /content/images/26_lambda_kappa_vs_lambda_k.png à l'archive
+2025-10-15T22:32:57.474677Z,INFO,Ajout du fichier /content/images/26_sweep_grid_k2_t10000.png à l'archive
+2025-10-15T22:32:57.481860Z,INFO,Ajout du fichier /content/images/26_noffill_mean_traj.png à l'archive
+2025-10-15T22:32:57.487239Z,INFO,Ajout du fichier /content/images/26_sweep_grid_k4_t10000.png à l'archive
+2025-10-15T22:32:57.493390Z,INFO,Ajout du fichier /content/images/comp_v1_v2_v3_mse.png à l'archive
+2025-10-15T22:32:57.498495Z,INFO,Ajout du fichier /content/images/26_res_kappa_grid_resampled.png à l'archive
+2025-10-15T22:32:57.505951Z,INFO,Ajout du fichier /content/images/26_cmp_node_1_L_sym.png à l'archive
+2025-10-15T22:32:57.508831Z,INFO,Ajout du fichier /content/images/26_lambda_scatter_b_vs_kappa_lb0p1_lk0p0.png à l'archive
+2025-10-15T22:32:57.526918Z,INFO,Ajout du fichier /content/images/comp_v1_v4_trajectoires.png à l'archive
+2025-10-15T22:32:57.531563Z,INFO,Ajout du fichier /content/images/26_final_boot_kde_kappa.png à l'archive
+2025-10-15T22:32:57.541020Z,INFO,Ajout du fichier /content/images/26_res_mean_traj_resampled.png à l'archive
+2025-10-15T22:32:57.546457Z,INFO,Ajout du fichier /content/images/26_sweep_grid_k1_t10000.png à l'archive
+2025-10-15T22:32:57.552735Z,INFO,Ajout du fichier /content/images/26_final_boot_kde_a.png à l'archive
+2025-10-15T22:32:57.570921Z,INFO,Ajout du fichier /content/images/comp_v4_v4ext_trajectoires.png à l'archive
+2025-10-15T22:32:57.584107Z,INFO,Ajout du fichier /content/images/v4_ext_multi_trajectoire.png à l'archive
+2025-10-15T22:32:57.592692Z,INFO,Ajout du fichier /content/images/26_l2_grid_k1_t1000.png à l'archive
+2025-10-15T22:32:57.610331Z,INFO,Ajout du fichier /content/images/comp_v1_v2_v3_trajectoires.png à l'archive
+2025-10-15T22:32:57.614858Z,INFO,Ajout du fichier /content/images/26_final_boot_kappa.png à l'archive
+2025-10-15T22:32:57.622919Z,INFO,Ajout du fichier /content/images/26_sweep_node_mean_k3_t50000.png à l'archive
+2025-10-15T22:32:57.633598Z,INFO,Ajout du fichier /content/images/26_noffill_node_HSI_L_comb.png à l'archive
+2025-10-15T22:32:57.640496Z,INFO,Ajout du fichier /content/images/26_l2_mean_k1_t50000.png à l'archive
+2025-10-15T22:32:57.656870Z,INFO,Ajout du fichier /content/images/26_cmp_mean_traj_L_vs_Lsym.png à l'archive
+2025-10-15T22:32:57.665238Z,INFO,Ajout du fichier /content/images/26_l2_mean_k2_t1000.png à l'archive
+2025-10-15T22:32:57.674726Z,INFO,Ajout du fichier /content/images/26_sweep_mean_k1_t1000.png à l'archive
+2025-10-15T22:32:57.682031Z,INFO,Ajout du fichier /content/images/26_sweep_node_mean_k4_t10000.png à l'archive
+2025-10-15T22:32:57.687370Z,INFO,Ajout du fichier /content/images/26_sweep_grid_k1_t1000.png à l'archive
+2025-10-15T22:32:57.691217Z,INFO,Ajout du fichier /content/images/26_final_boot_a.png à l'archive
+2025-10-15T22:32:57.699668Z,INFO,Ajout du fichier /content/images/24bis_pca_resid.png à l'archive
+2025-10-15T22:32:57.705197Z,INFO,Ajout du fichier /content/images/24_pca_traj.png à l'archive
+2025-10-15T22:32:57.709311Z,INFO,Ajout du fichier /content/images/26_final_boot_kde_m.png à l'archive
+2025-10-15T22:32:57.713134Z,INFO,Ajout du fichier /content/images/26_l2_grid_k3_t50000.png à l'archive
+2025-10-15T22:32:57.717363Z,INFO,Ajout du fichier /content/images/26_lambda_hist_a_lb0p01_lk0p0.png à l'archive
+2025-10-15T22:32:57.720290Z,INFO,Ajout du fichier /content/images/26_lambda_hist_b_lb0p1_lk0p0.png à l'archive
+2025-10-15T22:32:57.725830Z,INFO,Ajout du fichier /content/images/26_lambda_scatter_b_vs_kappa_lb0p01_lk0p0.png à l'archive
+2025-10-15T22:32:57.733054Z,INFO,Ajout du fichier /content/images/26_l2_mean_k3_t10000.png à l'archive
+2025-10-15T22:32:57.748693Z,INFO,Ajout du fichier /content/images/ablation_compare.png à l'archive
+2025-10-15T22:32:57.753883Z,INFO,Ajout du fichier /content/images/26_sweep_grid_k2_t1000.png à l'archive
+2025-10-15T22:32:57.764851Z,INFO,Ajout du fichier /content/images/sim_full_vs_data.png à l'archive
+2025-10-15T22:32:57.775663Z,INFO,Ajout du fichier /content/images/phi_on_grid.png à l'archive
+2025-10-15T22:32:57.780367Z,INFO,Ajout du fichier /content/images/24_pca_resid.png à l'archive
+2025-10-15T22:32:57.784299Z,INFO,Ajout du fichier /content/images/26_sweep_grid_k3_t10000.png à l'archive
+2025-10-15T22:32:57.789331Z,INFO,Ajout du fichier /content/images/26_sweep_node_mean_k4_t1000.png à l'archive
+2025-10-15T22:32:57.812282Z,INFO,Ajout du fichier /content/images/comp_v4_triple_residus.png à l'archive
+2025-10-15T22:32:57.822814Z,INFO,Ajout du fichier /content/images/26_sweep_mean_k4_t1000.png à l'archive
+2025-10-15T22:32:57.833542Z,INFO,Ajout du fichier /content/images/26_cmp_node_4_L.png à l'archive
+2025-10-15T22:32:57.839661Z,INFO,Ajout du fichier /content/images/26_final_boot_b.png à l'archive
+2025-10-15T22:32:57.847432Z,INFO,Ajout du fichier /content/images/26_sweep_mean_k3_t1000.png à l'archive
+2025-10-15T22:32:57.852986Z,INFO,Ajout du fichier /content/images/26_sweep_mean_k1_t10000.png à l'archive
+2025-10-15T22:32:57.857235Z,INFO,Ajout du fichier /content/images/26_l2_grid_k4_t10000.png à l'archive
+2025-10-15T22:32:57.862196Z,INFO,Ajout du fichier /content/images/23ter_pca_single_resid.png à l'archive
+2025-10-15T22:32:57.867554Z,INFO,Ajout du fichier /content/images/26_l2_grid_k3_t10000.png à l'archive
+2025-10-15T22:32:57.877007Z,INFO,Ajout du fichier /content/images/26_cmp_node_4_L_sym.png à l'archive
+2025-10-15T22:32:57.882920Z,INFO,Ajout du fichier /content/images/26_l2_mean_k2_t50000.png à l'archive
+2025-10-15T22:32:57.892997Z,INFO,Ajout du fichier /content/images/26_l2_mean_k3_t50000.png à l'archive
+2025-10-15T22:32:57.912220Z,INFO,Ajout du fichier /content/images/comp_v4_triple_trajectoires.png à l'archive
+2025-10-15T22:32:57.918429Z,INFO,Ajout du fichier /content/images/26_sweep_grid_k4_t50000.png à l'archive
+2025-10-15T22:32:57.924240Z,INFO,Ajout du fichier /content/images/26_l2_grid_k3_t1000.png à l'archive
+2025-10-15T22:32:57.932715Z,INFO,Ajout du fichier /content/images/comp_v4_v4ext_mse.png à l'archive
+2025-10-15T22:32:57.936644Z,INFO,Ajout du fichier /content/images/26_l2_grid_k2_t10000.png à l'archive
+2025-10-15T22:32:57.941989Z,INFO,Ajout du fichier /content/images/26_sweep_node_mean_k1_t10000.png à l'archive
+2025-10-15T22:32:57.945882Z,INFO,Ajout du fichier /content/images/26_sweep_grid_k3_t1000.png à l'archive
+2025-10-15T22:32:57.948061Z,INFO,Ajout du fichier /content/images/23ter_phi_vs_euribor.png à l'archive
+2025-10-15T22:32:57.953165Z,INFO,Ajout du fichier /content/images/26_sweep_node_mean_k2_t50000.png à l'archive
+2025-10-15T22:32:57.959332Z,INFO,Ajout du fichier /content/images/26_cmp_node_2_L.png à l'archive
+2025-10-15T22:32:57.963264Z,INFO,Ajout du fichier /content/images/26_sweep_grid_k2_t50000.png à l'archive
+2025-10-15T22:32:57.966338Z,INFO,Ajout du fichier /content/images/26_lambda_hist_b_lb0p01_lk0p0.png à l'archive
+2025-10-15T22:32:57.968633Z,INFO,Ajout du fichier /content/images/26_lambda_hist_m_lb0p1_lk0p0.png à l'archive
+2025-10-15T22:32:57.975450Z,INFO,Ajout du fichier /content/images/26_cmp_node_3_L.png à l'archive
+2025-10-15T22:32:57.983445Z,INFO,Ajout du fichier /content/images/26_noffill_node_SZ_L_comb.png à l'archive
+2025-10-15T22:32:57.988474Z,INFO,Ajout du fichier /content/images/residuals_hist.png à l'archive
+2025-10-15T22:32:58.000346Z,INFO,Ajout du fichier /content/images/comp_v1_v2_v3_residus.png à l'archive
+2025-10-15T22:32:58.008355Z,INFO,Ajout du fichier /content/images/26_l2_mean_k1_t1000.png à l'archive
+2025-10-15T22:32:58.011320Z,INFO,Ajout du fichier /content/images/26_lambda_hist_kappa_lb0p01_lk0p0.png à l'archive
+2025-10-15T22:32:58.020276Z,INFO,Ajout du fichier /content/images/26_l2_mean_k4_t10000.png à l'archive
+2025-10-15T22:32:58.027416Z,INFO,Ajout du fichier /content/images/26_sweep_node_mean_k1_t50000.png à l'archive
+2025-10-15T22:32:58.034664Z,INFO,Ajout du fichier /content/images/26_sweep_node_mean_k2_t1000.png à l'archive
+2025-10-15T22:32:58.043463Z,INFO,Ajout du fichier /content/images/26_cmp_node_0_L.png à l'archive
+2025-10-15T22:32:58.058769Z,INFO,Ajout du fichier /content/images/fit_phi_vs_data.png à l'archive
+2025-10-15T22:32:58.077779Z,INFO,Ajout du fichier /content/images/delta_mse_terms.png à l'archive
+2025-10-15T22:32:58.095579Z,INFO,Ajout du fichier /content/images/v4_ext_euribor_trajectoire.png à l'archive
+2025-10-15T22:32:58.106572Z,INFO,Ajout du fichier /content/images/v4_ext_refi_trajectoire.png à l'archive
+2025-10-15T22:32:58.116753Z,INFO,Ajout du fichier /content/images/24bis_pca_traj.png à l'archive
+2025-10-15T22:32:58.119061Z,INFO,Ajout du fichier /content/logs/26_sweep_A_k4_t50000.csv à l'archive
+2025-10-15T22:32:58.123960Z,INFO,Ajout du fichier /content/logs/26_lambda_abnormal_rerun.csv à l'archive
+2025-10-15T22:32:58.126725Z,INFO,Ajout du fichier /content/logs/summary_26.md à l'archive
+2025-10-15T22:32:58.131039Z,INFO,Ajout du fichier /content/logs/26_noffill_L_comb.csv à l'archive
+2025-10-15T22:32:58.152906Z,INFO,Ajout du fichier /content/logs/phi_matrix_subset.csv à l'archive
+2025-10-15T22:32:58.155058Z,INFO,Ajout du fichier /content/logs/26_l2_L_k1_t1000.csv à l'archive
+2025-10-15T22:32:58.157292Z,INFO,Ajout du fichier /content/logs/26_lambda_sensitivity.csv à l'archive
+2025-10-15T22:32:58.159194Z,INFO,Ajout du fichier /content/logs/23ter_diag_stats.csv à l'archive
+2025-10-15T22:32:58.161905Z,INFO,Ajout du fichier /content/logs/26_cmp_L_sym_kappa_grid.csv à l'archive
+2025-10-15T22:32:58.165432Z,INFO,Ajout du fichier /content/logs/26_l2_L_k1_t50000.csv à l'archive
+2025-10-15T22:32:58.168135Z,INFO,Ajout du fichier /content/logs/26_l2_grid_k3_t1000.csv à l'archive
+2025-10-15T22:32:58.170859Z,INFO,Ajout du fichier /content/logs/26_adjacency_A.csv à l'archive
+2025-10-15T22:32:58.172995Z,INFO,Ajout du fichier /content/logs/26_sweep_grid_k4_t50000.csv à l'archive
+2025-10-15T22:32:58.175555Z,INFO,Ajout du fichier /content/logs/summary_v1_vs_v4.md à l'archive
+2025-10-15T22:32:58.179494Z,INFO,Ajout du fichier /content/logs/26_sweep_grid_k2_t1000.csv à l'archive
+2025-10-15T22:32:58.182887Z,INFO,Ajout du fichier /content/logs/23ter_result_pca_single.csv à l'archive
+2025-10-15T22:32:58.187856Z,INFO,Ajout du fichier /content/logs/26_sweep_grid_k3_t1000.csv à l'archive
+2025-10-15T22:32:58.191077Z,INFO,Ajout du fichier /content/logs/26_noffill_L_sym.csv à l'archive
+2025-10-15T22:32:58.194867Z,INFO,Ajout du fichier /content/logs/26_lambda_init_sweep_summary.csv à l'archive
+2025-10-15T22:32:58.199014Z,INFO,Ajout du fichier /content/logs/26_l2_grid_k3_t50000.csv à l'archive
+2025-10-15T22:32:58.202694Z,INFO,Ajout du fichier /content/logs/26_sweep_A_k2_t10000.csv à l'archive
+2025-10-15T22:32:58.205910Z,INFO,Ajout du fichier /content/logs/26_l2_L_k3_t10000.csv à l'archive
+2025-10-15T22:32:58.210869Z,INFO,Ajout du fichier /content/logs/26_l2_grid_k4_t10000.csv à l'archive
+2025-10-15T22:32:58.212914Z,INFO,Ajout du fichier /content/logs/summary_v4_vs_v4ext.md à l'archive
+2025-10-15T22:32:58.216798Z,INFO,Ajout du fichier /content/logs/manifest_v2.json à l'archive
+2025-10-15T22:32:58.220143Z,INFO,Ajout du fichier /content/logs/26_node_corr.csv à l'archive
+2025-10-15T22:32:58.222183Z,INFO,Ajout du fichier /content/logs/26_sweep_A_k3_t1000.csv à l'archive
+2025-10-15T22:32:58.225496Z,INFO,Ajout du fichier /content/logs/summary_23ter_pca_single.md à l'archive
+2025-10-15T22:32:58.229006Z,INFO,Ajout du fichier /content/logs/26_noffill_L_comb_kappa_grid.csv à l'archive
+2025-10-15T22:32:58.233091Z,INFO,Ajout du fichier /content/logs/26_cmp_L_comb_kappa_grid.csv à l'archive
+2025-10-15T22:32:58.235014Z,INFO,Ajout du fichier /content/logs/26_sweep_L_k2_t10000.csv à l'archive
+2025-10-15T22:32:58.239478Z,INFO,Ajout du fichier /content/logs/26_noffill_node_diag.csv à l'archive
+2025-10-15T22:32:58.241569Z,INFO,Ajout du fichier /content/logs/summary_v4_triple.md à l'archive
+2025-10-15T22:32:58.245757Z,INFO,Ajout du fichier /content/logs/24_diag_stats.csv à l'archive
+2025-10-15T22:32:58.247837Z,INFO,Ajout du fichier /content/logs/26_l2_L_k1_t10000.csv à l'archive
+2025-10-15T22:32:58.251422Z,INFO,Ajout du fichier /content/logs/summary_v1_vs_v2.md à l'archive
+2025-10-15T22:32:58.253032Z,INFO,Ajout du fichier /content/logs/26_sweep_node_diagnostics.csv à l'archive
+2025-10-15T22:32:58.256524Z,INFO,Ajout du fichier /content/logs/26_l2_L_k2_t10000.csv à l'archive
+2025-10-15T22:32:58.263369Z,INFO,Ajout du fichier /content/logs/test_simulate_with_kappa_output.csv à l'archive
+2025-10-15T22:32:58.267564Z,INFO,Ajout du fichier /content/logs/summary_v4_ext_multi.md à l'archive
+2025-10-15T22:32:58.269224Z,INFO,Ajout du fichier /content/logs/26_l2_grid_k4_t50000.csv à l'archive
+2025-10-15T22:32:58.272252Z,INFO,Ajout du fichier /content/logs/26_l2_A_k4_t50000.csv à l'archive
+2025-10-15T22:32:58.275663Z,INFO,Ajout du fichier /content/logs/26_sweep_A_k2_t1000.csv à l'archive
+2025-10-15T22:32:58.278674Z,INFO,Ajout du fichier /content/logs/26_l2_A_k2_t10000.csv à l'archive
+2025-10-15T22:32:58.280677Z,INFO,Ajout du fichier /content/logs/26_l2_L_k4_t1000.csv à l'archive
+2025-10-15T22:32:58.284762Z,INFO,Ajout du fichier /content/logs/26_sweep_A_k4_t10000.csv à l'archive
+2025-10-15T22:32:58.288976Z,INFO,Ajout du fichier /content/logs/26_lambda_init_sweep_valid.csv à l'archive
+2025-10-15T22:32:58.292124Z,INFO,Ajout du fichier /content/logs/26_sweep_grid_k4_t10000.csv à l'archive
+2025-10-15T22:32:58.298652Z,INFO,Ajout du fichier /content/logs/26_lambda_all_aggregated.csv à l'archive
+2025-10-15T22:32:58.303979Z,INFO,Ajout du fichier /content/logs/26_noffill_L_comb_params_bootstrap.csv à l'archive
+2025-10-15T22:32:58.306090Z,INFO,Ajout du fichier /content/logs/26_l2_A_k1_t50000.csv à l'archive
+2025-10-15T22:32:58.309315Z,INFO,Ajout du fichier /content/logs/26_l2_A_k4_t10000.csv à l'archive
+2025-10-15T22:32:58.310720Z,INFO,Ajout du fichier /content/logs/26_l2_L_k2_t1000.csv à l'archive
+2025-10-15T22:32:58.317196Z,INFO,Ajout du fichier /content/logs/26_lambda_init_sweep.csv à l'archive
+2025-10-15T22:32:58.321077Z,INFO,Ajout du fichier /content/logs/26_Laplacian_L.csv à l'archive
+2025-10-15T22:32:58.323512Z,INFO,Ajout du fichier /content/logs/summary.md à l'archive
+2025-10-15T22:32:58.325787Z,INFO,Ajout du fichier /content/logs/26_l2_A_k3_t10000.csv à l'archive
+2025-10-15T22:32:58.328743Z,INFO,Ajout du fichier /content/logs/26_cmp_results_L_vs_Lsym.csv à l'archive
+2025-10-15T22:32:58.330077Z,INFO,Ajout du fichier /content/logs/26_sweep_A_k1_t1000.csv à l'archive
+2025-10-15T22:32:58.333565Z,INFO,Ajout du fichier /content/logs/26_sweep_L_k2_t50000.csv à l'archive
+2025-10-15T22:32:58.335998Z,INFO,Ajout du fichier /content/logs/26_summary_kappa.csv à l'archive
+2025-10-15T22:32:58.339551Z,INFO,Ajout du fichier /content/logs/26_cmp_adjacency_A.csv à l'archive
+2025-10-15T22:32:58.341038Z,INFO,Ajout du fichier /content/logs/26_sweep_L_k1_t1000.csv à l'archive
+2025-10-15T22:32:58.345136Z,INFO,Ajout du fichier /content/logs/26_sweep_L_k3_t1000.csv à l'archive
+2025-10-15T22:32:58.347530Z,INFO,Ajout du fichier /content/logs/26_cmp_L_comb.csv à l'archive
+2025-10-15T22:32:58.349260Z,INFO,Ajout du fichier /content/logs/26_kappa_grid.csv à l'archive
+2025-10-15T22:32:58.354031Z,INFO,Ajout du fichier /content/logs/26_sweep_grid_k1_t1000.csv à l'archive
+2025-10-15T22:32:58.355937Z,INFO,Ajout du fichier /content/logs/26_sweep_A_k2_t50000.csv à l'archive
+2025-10-15T22:32:58.359745Z,INFO,Ajout du fichier /content/logs/26_res_resampled_summary.csv à l'archive
+2025-10-15T22:32:58.387536Z,INFO,Ajout du fichier /content/logs/phi_matrix_prepared.csv à l'archive
+2025-10-15T22:32:58.395017Z,INFO,Ajout du fichier /content/logs/26_final_bootstrap_summary.csv à l'archive
+2025-10-15T22:32:58.396794Z,INFO,Ajout du fichier /content/logs/23debug_stats.csv à l'archive
+2025-10-15T22:32:58.399139Z,INFO,Ajout du fichier /content/logs/summary_v3_final.md à l'archive
+2025-10-15T22:32:58.400518Z,INFO,Ajout du fichier /content/logs/26_sweep_L_k1_t10000.csv à l'archive
+2025-10-15T22:32:58.404115Z,INFO,Ajout du fichier /content/logs/26_L_used.csv à l'archive
+2025-10-15T22:32:58.405975Z,INFO,Ajout du fichier /content/logs/26_l2_L_k4_t10000.csv à l'archive
+2025-10-15T22:32:58.435001Z,INFO,Ajout du fichier /content/logs/26_Phi_standardized.csv à l'archive
+2025-10-15T22:32:58.436936Z,INFO,Ajout du fichier /content/logs/26_l2_L_k3_t1000.csv à l'archive
+2025-10-15T22:32:58.441216Z,INFO,Ajout du fichier /content/logs/summary_24.md à l'archive
+2025-10-15T22:32:58.443076Z,INFO,Ajout du fichier /content/logs/summary_24bis_decomp.md à l'archive
+2025-10-15T22:32:58.444942Z,INFO,Ajout du fichier /content/logs/26_sweep_A_k1_t50000.csv à l'archive
+2025-10-15T22:32:58.447335Z,INFO,Ajout du fichier /content/logs/26_lambda_init_sweep_summary_filtered.csv à l'archive
+2025-10-15T22:32:58.454949Z,INFO,Ajout du fichier /content/logs/26_final_bootstrap_params.csv à l'archive
+2025-10-15T22:32:58.457639Z,INFO,Ajout du fichier /content/logs/26_l2_grid_k2_t10000.csv à l'archive
+2025-10-15T22:32:58.459602Z,INFO,Ajout du fichier /content/logs/26_sweep_L_k4_t50000.csv à l'archive
+2025-10-15T22:32:58.462406Z,INFO,Ajout du fichier /content/logs/26_sweep_L_k4_t1000.csv à l'archive
+2025-10-15T22:32:58.464538Z,INFO,Ajout du fichier /content/logs/26_l2_grid_k4_t1000.csv à l'archive
+2025-10-15T22:32:58.466887Z,INFO,Ajout du fichier /content/logs/rapport_final_comparatif.md à l'archive
+2025-10-15T22:32:58.504153Z,INFO,Ajout du fichier /content/logs/phi_matrix_prepared_extra.csv à l'archive
+2025-10-15T22:32:58.506388Z,INFO,Ajout du fichier /content/logs/26_l2_grid_k1_t1000.csv à l'archive
+2025-10-15T22:32:58.508604Z,INFO,Ajout du fichier /content/logs/summary_v4_ext_refi.md à l'archive
+2025-10-15T22:32:58.510091Z,INFO,Ajout du fichier /content/logs/manifest_v3.json à l'archive
+2025-10-15T22:32:58.513641Z,INFO,Ajout du fichier /content/logs/26_lambda_all_filtered.csv à l'archive
+2025-10-15T22:32:58.516032Z,INFO,Ajout du fichier /content/logs/26_l2_grid_k2_t50000.csv à l'archive
+2025-10-15T22:32:58.517998Z,INFO,Ajout du fichier /content/logs/26_res_L_sym_kappa_grid_resampled.csv à l'archive
+2025-10-15T22:32:58.519523Z,INFO,Ajout du fichier /content/logs/not_promising_index.csv à l'archive
+2025-10-15T22:32:58.521764Z,INFO,Ajout du fichier /content/logs/26_noffill_L_sym_kappa_grid.csv à l'archive
+2025-10-15T22:32:58.523275Z,INFO,Ajout du fichier /content/logs/26_l2_A_k1_t10000.csv à l'archive
+2025-10-15T22:32:58.524988Z,INFO,Ajout du fichier /content/logs/23ter_attempts_log.csv à l'archive
+2025-10-15T22:32:58.526926Z,INFO,Ajout du fichier /content/logs/26_res_L_comb_kappa_grid_resampled.csv à l'archive
+2025-10-15T22:32:58.530450Z,INFO,Ajout du fichier /content/logs/26_sweep_A_k3_t10000.csv à l'archive
+2025-10-15T22:32:58.532892Z,INFO,Ajout du fichier /content/logs/26_lambda_abnormal_rerun_kappa1.csv à l'archive
+2025-10-15T22:32:58.534298Z,INFO,Ajout du fichier /content/logs/26_sweep_grid_k3_t50000.csv à l'archive
+2025-10-15T22:32:58.536153Z,INFO,Ajout du fichier /content/logs/26_l2_grid_k3_t10000.csv à l'archive
+2025-10-15T22:32:58.537830Z,INFO,Ajout du fichier /content/logs/26_noffill_cmp_summary.csv à l'archive
+2025-10-15T22:32:58.560735Z,INFO,Ajout du fichier /content/logs/26_cmp_Phi_standardized.csv à l'archive
+2025-10-15T22:32:58.564801Z,INFO,Ajout du fichier /content/logs/26_l2_A_k2_t50000.csv à l'archive
+2025-10-15T22:32:58.566682Z,INFO,Ajout du fichier /content/logs/26_lambda_all_aggregated_summary.csv à l'archive
+2025-10-15T22:32:58.568567Z,INFO,Ajout du fichier /content/logs/validation_oos_sweep.csv à l'archive
+2025-10-15T22:32:58.570235Z,INFO,Ajout du fichier /content/logs/promising_index.csv à l'archive
+2025-10-15T22:32:58.571777Z,INFO,Ajout du fichier /content/logs/26_sweep_L_k3_t10000.csv à l'archive
+2025-10-15T22:32:58.573502Z,INFO,Ajout du fichier /content/logs/26_l2_grid_k1_t50000.csv à l'archive
+2025-10-15T22:32:58.575193Z,INFO,Ajout du fichier /content/logs/26_l2_A_k1_t1000.csv à l'archive
+2025-10-15T22:32:58.576899Z,INFO,Ajout du fichier /content/logs/26_l2_A_k3_t1000.csv à l'archive
+2025-10-15T22:32:58.580284Z,INFO,Ajout du fichier /content/logs/26_sweep_knn_threshold_results.csv à l'archive
+2025-10-15T22:32:58.584858Z,INFO,Ajout du fichier /content/logs/validation_bootstrap_params.csv à l'archive
+2025-10-15T22:32:58.586408Z,INFO,Ajout du fichier /content/logs/26_noffill_A_for_lambda_sweep.csv à l'archive
+2025-10-15T22:32:58.588018Z,INFO,Ajout du fichier /content/logs/summary_26_sweep.md à l'archive
+2025-10-15T22:32:58.589597Z,INFO,Ajout du fichier /content/logs/26_adjacency_sparse_A.csv à l'archive
+2025-10-15T22:32:58.591150Z,INFO,Ajout du fichier /content/logs/26_l2_A_k3_t50000.csv à l'archive
+2025-10-15T22:32:58.592868Z,INFO,Ajout du fichier /content/logs/26_sweep_A_k1_t10000.csv à l'archive
+2025-10-15T22:32:58.594533Z,INFO,Ajout du fichier /content/logs/26_l2_L_k4_t50000.csv à l'archive

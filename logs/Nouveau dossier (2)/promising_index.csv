@@ -1,0 +1,14 @@
+file,path,verdict,reason,a_median,a_std,b_median,b_std,m_median,m_std,kappa_median,kappa_std
+26_final_bootstrap_params.csv,/content/logs/26_final_bootstrap_params.csv,promising,a_median=0.2322,0.2321717653716287,0.46891042700730456,1.3281604644039424e-06,0.0081401979173907,0.0031316739013805,0.12050585562905072,-0.0005775641256167,0.031078602496268003
+26_noffill_L_comb_params_bootstrap.csv,/content/logs/26_noffill_L_comb_params_bootstrap.csv,promising,b_median=3.047e-05; a_median=0.1794,0.17941794426501445,0.5051284720710376,3.046512155710638e-05,0.007683615472630702,1.402847883643124e-05,0.060436683142263914,-4.560843918107165e-05,0.00673091013874595
+validation_bootstrap_params.csv,/content/logs/validation_bootstrap_params.csv,promising,a_median=0.2322,0.2321717653716287,0.46891042700730456,1.3281604644039424e-06,0.0081401979173907,0.0031316739013805,0.12050585562905072,-0.0005775641256167,0.031078602496268003
+manifest.json,/content/logs/manifest.json,promising,contains fitted_params,,,,,,,,
+26_final_bootstrap_summary.csv,/content/logs/26_final_bootstrap_summary.csv,promising,name suggests fitted/summary,,,,,,,,
+26_lambda_all_aggregated_summary.csv,/content/logs/26_lambda_all_aggregated_summary.csv,promising,name suggests fitted/summary,,,,,,,,
+26_lambda_init_sweep_summary.csv,/content/logs/26_lambda_init_sweep_summary.csv,promising,name suggests fitted/summary,,,,,,,,
+26_lambda_init_sweep_summary_filtered.csv,/content/logs/26_lambda_init_sweep_summary_filtered.csv,promising,name suggests fitted/summary,,,,,,,,
+26_noffill_L_comb_params_bootstrap.csv,/content/logs/26_noffill_L_comb_params_bootstrap.csv,promising,name suggests fitted/summary,,,,,,,,
+26_noffill_L_comb_params_bootstrap_summary.csv,/content/logs/26_noffill_L_comb_params_bootstrap_summary.csv,promising,name suggests fitted/summary,,,,,,,,
+26_noffill_cmp_summary.csv,/content/logs/26_noffill_cmp_summary.csv,promising,name suggests fitted/summary,,,,,,,,
+26_res_resampled_summary.csv,/content/logs/26_res_resampled_summary.csv,promising,name suggests fitted/summary,,,,,,,,
+26_summary_kappa.csv,/content/logs/26_summary_kappa.csv,promising,name suggests fitted/summary,,,,,,,,
