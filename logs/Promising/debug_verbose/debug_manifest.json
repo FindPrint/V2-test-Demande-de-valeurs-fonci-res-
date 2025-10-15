@@ -1,0 +1,6082 @@
+[
+  {
+    "cand_index": 0,
+    "trial": 0,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2523918512688219,
+      -0.006907854052875564,
+      0.03351414243517362,
+      0.07595511147015142
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 0,
+    "trial": 1,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2275561436182603,
+      5.3610056836697265e-06,
+      0.001129715530139,
+      -0.00019638135024984999
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 1,
+    "trial": 0,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2158484748820935,
+      -0.011701486841775358,
+      0.08009035630550858,
+      0.03817535510739559
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 1,
+    "trial": 1,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2275561436182603,
+      5.3610056836697265e-06,
+      0.001129715530139,
+      -0.00019638135024984999
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 2,
+    "trial": 0,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2040824243215127,
+      0.027133363184981905,
+      0.0,
+      -0.023482869028762694
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 2,
+    "trial": 1,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2275561436182603,
+      5.3610056836697265e-06,
+      0.001129715530139,
+      -0.00019638135024984999
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 3,
+    "trial": 0,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.239654257196562,
+      -0.09565865122720622,
+      0.0,
+      -0.028310757812298484
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 3,
+    "trial": 1,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2275561436182603,
+      5.3610056836697265e-06,
+      0.001129715530139,
+      -0.00019638135024984999
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 4,
+    "trial": 0,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.1769145876015391,
+      0.015717727635447366,
+      0.0,
+      -0.07081156641701443
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 4,
+    "trial": 1,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2275561436182603,
+      5.3610056836697265e-06,
+      0.001129715530139,
+      -0.00019638135024984999
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 5,
+    "trial": 0,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.300838582064338,
+      -0.011283454018643115,
+      0.004506125764535192,
+      -0.07143379066092269
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 5,
+    "trial": 1,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2275561436182603,
+      5.3610056836697265e-06,
+      0.001129715530139,
+      -0.00019638135024984999
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 6,
+    "trial": 0,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.20033700739200117,
+      0.005551490491176974,
+      0.0,
+      0.01858851956703375
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 6,
+    "trial": 1,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2275561436182603,
+      5.3610056836697265e-06,
+      0.001129715530139,
+      -0.00019638135024984999
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 7,
+    "trial": 0,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.19752420912232005,
+      -0.01457932648398017,
+      0.0,
+      0.09241752787519704
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 7,
+    "trial": 1,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2275561436182603,
+      5.3610056836697265e-06,
+      0.001129715530139,
+      -0.00019638135024984999
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 8,
+    "trial": 0,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2268812823813636,
+      -0.05288018544211135,
+      0.042256961135298456,
+      -0.06123856384880097
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 8,
+    "trial": 1,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2275561436182603,
+      5.3610056836697265e-06,
+      0.001129715530139,
+      -0.00019638135024984999
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 9,
+    "trial": 0,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.23799932336849805,
+      -0.09797814518830511,
+      0.0,
+      0.009646680443206325
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 9,
+    "trial": 1,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2275561436182603,
+      5.3610056836697265e-06,
+      0.001129715530139,
+      -0.00019638135024984999
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p1_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 10,
+    "trial": 0,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2926432080882002,
+      0.07808092084202631,
+      0.0027299229834273314,
+      -0.03786727486755903
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 10,
+    "trial": 1,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2275561436182603,
+      5.3610056836697265e-06,
+      0.001129715530139,
+      -0.00019638135024984999
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 11,
+    "trial": 0,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2505547507652161,
+      -0.033880407481921636,
+      0.10179907790647016,
+      0.006630385203887023
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 11,
+    "trial": 1,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2275561436182603,
+      5.3610056836697265e-06,
+      0.001129715530139,
+      -0.00019638135024984999
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 12,
+    "trial": 0,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.20929006605265485,
+      0.00923937629892909,
+      0.0,
+      -0.04877708327578243
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 12,
+    "trial": 1,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2275561436182603,
+      5.3610056836697265e-06,
+      0.001129715530139,
+      -0.00019638135024984999
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 13,
+    "trial": 0,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2875768390154816,
+      -0.03283935294288612,
+      0.0,
+      0.02663625627611446
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 13,
+    "trial": 1,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2275561436182603,
+      5.3610056836697265e-06,
+      0.001129715530139,
+      -0.00019638135024984999
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 14,
+    "trial": 0,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.28684135135141015,
+      0.03595302653893701,
+      0.05093209982042982,
+      -0.03803613577872289
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 14,
+    "trial": 1,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2275561436182603,
+      5.3610056836697265e-06,
+      0.001129715530139,
+      -0.00019638135024984999
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 15,
+    "trial": 0,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.15646561028116812,
+      0.07507204360345801,
+      0.0,
+      -0.012738032173002218
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 15,
+    "trial": 1,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2275561436182603,
+      5.3610056836697265e-06,
+      0.001129715530139,
+      -0.00019638135024984999
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 16,
+    "trial": 0,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2939658507107132,
+      0.02781686147571667,
+      0.02392410413421938,
+      0.10805373589480435
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 16,
+    "trial": 1,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2275561436182603,
+      5.3610056836697265e-06,
+      0.001129715530139,
+      -0.00019638135024984999
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 17,
+    "trial": 0,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.19538023209925315,
+      0.04639736740974553,
+      0.003980371774993226,
+      0.013233232592912996
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 17,
+    "trial": 1,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2275561436182603,
+      5.3610056836697265e-06,
+      0.001129715530139,
+      -0.00019638135024984999
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 18,
+    "trial": 0,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.3039795649388869,
+      0.02539714882016486,
+      0.02804451948262065,
+      0.05342898551524026
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 18,
+    "trial": 1,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2275561436182603,
+      5.3610056836697265e-06,
+      0.001129715530139,
+      -0.00019638135024984999
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 19,
+    "trial": 0,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.20930850714111604,
+      -0.04195512236126665,
+      0.0,
+      -0.09851421081904994
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  },
+  {
+    "cand_index": 19,
+    "trial": 1,
+    "diag_csv": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0/runs_diagnostics.csv",
+    "params": [
+      0.2275561436182603,
+      5.3610056836697265e-06,
+      0.001129715530139,
+      -0.00019638135024984999
+    ],
+    "cfg_dir": "/content/logs/promising/summary_outputs/per_config/lb0p01_lk0p0",
+    "L_mat_errors": [
+      {
+        "path": "/content/logs/series_date_overlap.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_noffill_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_Laplacian_L.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_comb.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_L_used.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k4_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k4_t10000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_l2_L_k2_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k2_t1000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k3_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_sweep_L_k1_t50000.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_L_sym.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_cmp_adjacency_A.csv",
+        "err": "(0, slice(None, None, None))"
+      },
+      {
+        "path": "/content/logs/26_adjacency_sparse_A.csv",
+        "err": "(0, slice(None, None, None))"
+      }
+    ],
+    "status": "sim_exception",
+    "error": "(0, slice(None, None, None))"
+  }
+]

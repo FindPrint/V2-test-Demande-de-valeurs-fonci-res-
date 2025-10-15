@@ -1,0 +1,88 @@
+PARAMS:
+[0.2926432080882002, 0.07808092084202631, 0.0027299229834273314, -0.03786727486755903]
+
+PHI snapshot (shape, dtype): (1824, 3), float64
+
+L_mats found: 34
+
+EXCEPTION TRACEBACK (full):
+Traceback (most recent call last):
+  File "/tmp/ipython-input-330879687.py", line 144, in <cell line: 0>
+    sim_try = simulate_fn(params, phi_nd)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipython-input-1446757072.py", line 34, in simulate_and_predict_wrapper
+    out = _sim([a, b, m, kappa], phi_in, None, L_mat) if L_mat is not None else _sim([a,b,m,kappa], phi_in, None)
+                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/ipython-input-668622251.py", line 98, in simulate_with_kappa
+    phi_sim[0,:] = Phi_init[0,:]
+                   ~~~~~~~~^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: (0, slice(None, None, None))
+
+
+--- simulate source (head 200 lines) ---
+def simulate_and_predict_wrapper(params, phi_in, h_ext=None, L_mat=None, H_matrix=None):
+    """
+    Wrapper robuste pour simulate_with_kappa.
+    - params : array-like flexible.
+      * Si h_ext=None et len(params)==4 -> interpreted as [a,b,m,kappa].
+      * If h_ext provided or H_matrix provided, wrapper will try to map params to expected signature.
+      * If params longer than needed, only the first needed entries are used.
+    - phi_in : DataFrame T x K (index = time)
+    - h_ext / H_matrix : optional external(s) (Series or DataFrame) aligned on phi_in.index
+    - L_mat : optional Laplacian matrix if needed by simulate_with_kappa (will be passed through)
+    Returns pandas.Series (T,) aligned on phi_in.index (mean across nodes if simulate returns DataFrame).
+    """
+    # safety convert
+    phi_in = pd.DataFrame(phi_in)
+    p = np.asarray(params).ravel()
+
+    # Heuristique signature when no externals: [a,b,m,kappa]
+    if h_ext is None and (H_matrix is None):
+        # require at least 4 entries
+        if p.size < 4:
+            raise ValueError("Avec simulate_with_kappa sans externes, params doit contenir au moins 4 valeurs [a,b,m,kappa].")
+        a, b, m, kappa = float(p[0]), float(p[1]), float(p[2]), float(p[3])
+        # appel attendu : simulate_with_kappa(params, Phi_init, H_local=None, L_mat=...)
+        try:
+            out = _sim([a, b, m, kappa], phi_in, None, L_mat) if L_mat is not None else _sim([a,b,m,kappa], phi_in, None)
+        except TypeError:
+            # fallback without explicit H_local argument
+            out = _sim([a, b, m, kappa], phi_in)
+    else:
+        # externals present: try to detect signature that accepts H/h_ext
+        # common signatures seen: simulate_with_kappa(params, Phi_init, H_local=None, L_mat=...)
+        # Map params: try to use first 4 values as [a,b,m,kappa] and pass externals
+        if p.size < 4:
+            raise ValueError("Avec externes, params doit contenir au moins [a,b,m,kappa] en tête.")
+        a, b, m, kappa = float(p[0]), float(p[1]), float(p[2]), float(p[3])
+        H_to_pass = H_matrix if H_matrix is not None else h_ext
+        try:
+            out = _sim([a,b,m,kappa], phi_in, H_to_pass, L_mat) if L_mat is not None else _sim([a,b,m,kappa], phi_in, H_to_pass)
+        except TypeError as e:
+            # dernier essai: appeler avec params longue forme si simulate_with_kappa expects different ordering
+            try:
+                out = _sim([a,b,m,kappa,*(p[4:].tolist())], phi_in, H_to_pass, L_mat)
+            except Exception as e2:
+                raise RuntimeError(f"Échec d'appel de simulate_with_kappa avec externes: {e}; fallback failed: {e2}")
+
+    # Normalisation de la sortie
+    if isinstance(out, pd.Series):
+        return out.reindex(phi_in.index)
+    if isinstance(out, pd.DataFrame):
+        return out.reindex(index=phi_in.index).mean(axis=1)
+    if isinstance(out, (list, tuple, np.ndarray)):
+        arr = np.asarray(out)
+        if arr.ndim == 1 and arr.size == len(phi_in):
+            return pd.Series(arr, index=phi_in.index)
+        if arr.ndim == 2 and arr.shape[0] == len(phi_in):
+            return pd.Series(arr.mean(axis=1), index=phi_in.index)
+    raise RuntimeError("Le simulateur a renvoyé un format inattendu. Attendu: Series / DataFrame / ndarray alignable avec phi index.")
+
+ENV snapshot:
+params (as list): [0.2926432080882002, 0.07808092084202631, 0.0027299229834273314, -0.03786727486755903]
+phi_first_row: [0.1214116661761994, 0.5694982193051232, 0.6315024046285364]

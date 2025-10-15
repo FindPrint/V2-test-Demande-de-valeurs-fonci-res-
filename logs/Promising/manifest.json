@@ -1,0 +1,113 @@
+{
+  "versions": {
+    "python": "3.12.12 (main, Oct 10 2025, 08:52:57) [GCC 11.4.0]",
+    "platform": "Linux-6.6.105+-x86_64-with-glibc2.35",
+    "numpy": "2.0.2",
+    "pandas": "2.2.2",
+    "matplotlib": "3.10.0",
+    "scipy": "1.16.2",
+    "sklearn": "1.6.1"
+  },
+  "seed": 42,
+  "fitted_params": {
+    "a_T": 18.70610364646398,
+    "b": 1e-06,
+    "m0": 0.0,
+    "tau_m": 49.99899130902534,
+    "gain_h": 0.0,
+    "mse": 0.4401080397287738,
+    "nit": 5,
+    "success": true,
+    "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+  },
+  "metrics": [
+    {
+      "scenario": "full",
+      "MSE": 0.4398442649931738,
+      "a_T": 18.70610364646398,
+      "b": 1e-06,
+      "m0": 0.0,
+      "tau_m": 49.99899130902534,
+      "gain_h": 0.0,
+      "D": 0.02,
+      "include_Tlog": false
+    },
+    {
+      "scenario": "no_linear",
+      "MSE": 0.9851859505041988,
+      "a_T": 0.0,
+      "b": 1e-06,
+      "m0": 0.0,
+      "tau_m": 49.99899130902534,
+      "gain_h": 0.0,
+      "D": 0.02,
+      "include_Tlog": false
+    },
+    {
+      "scenario": "no_cubic",
+      "MSE": 0.439844264978052,
+      "a_T": 18.70610364646398,
+      "b": 0.0,
+      "m0": 0.0,
+      "tau_m": 49.99899130902534,
+      "gain_h": 0.0,
+      "D": 0.02,
+      "include_Tlog": false
+    },
+    {
+      "scenario": "no_memory",
+      "MSE": 0.4398442649931738,
+      "a_T": 18.70610364646398,
+      "b": 1e-06,
+      "m0": 0.0,
+      "tau_m": 49.99899130902534,
+      "gain_h": 0.0,
+      "D": 0.02,
+      "include_Tlog": false
+    },
+    {
+      "scenario": "no_field",
+      "MSE": 0.4398442649931738,
+      "a_T": 18.70610364646398,
+      "b": 1e-06,
+      "m0": 0.0,
+      "tau_m": 49.99899130902534,
+      "gain_h": 0.0,
+      "D": 0.02,
+      "include_Tlog": false
+    },
+    {
+      "scenario": "no_noise",
+      "MSE": 0.4401080397287738,
+      "a_T": 18.70610364646398,
+      "b": 1e-06,
+      "m0": 0.0,
+      "tau_m": 49.99899130902534,
+      "gain_h": 0.0,
+      "D": 0.0,
+      "include_Tlog": false
+    },
+    {
+      "scenario": "with_Tlog",
+      "MSE": 1.204316893943233,
+      "a_T": 18.70610364646398,
+      "b": 1e-06,
+      "m0": 0.0,
+      "tau_m": 49.99899130902534,
+      "gain_h": 0.0,
+      "D": 0.02,
+      "include_Tlog": true
+    }
+  ],
+  "files": {
+    "raw_copy": "data_copies/raw_data.csv",
+    "grids": "data/grids.csv",
+    "memory_kernel": "data/memory_kernel.csv",
+    "simulation": "data/simulation.csv",
+    "simulation_ablation": "data/simulation_ablation.csv",
+    "metrics": "data/metrics.csv",
+    "metrics_analysis": "data/metrics_analysis.csv",
+    "params": "models/params.json",
+    "fitted_params": "models/fitted_params.csv"
+  }
+}

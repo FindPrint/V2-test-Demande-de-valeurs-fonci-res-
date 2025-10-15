@@ -1,0 +1,283 @@
+{
+  "files": [
+    {
+      "path": "/content/logs/promising/26_final_bootstrap_params.csv",
+      "name": "26_final_bootstrap_params.csv",
+      "size_kb": 37.88,
+      "mtime": "2025-10-15T20:54:55.290200"
+    },
+    {
+      "path": "/content/logs/promising/26_final_bootstrap_summary.csv",
+      "name": "26_final_bootstrap_summary.csv",
+      "size_kb": 0.53,
+      "mtime": "2025-10-15T20:54:55.297201"
+    },
+    {
+      "path": "/content/logs/promising/26_lambda_all_aggregated_summary.csv",
+      "name": "26_lambda_all_aggregated_summary.csv",
+      "size_kb": 1.42,
+      "mtime": "2025-10-15T20:29:34.099274"
+    },
+    {
+      "path": "/content/logs/promising/26_lambda_init_sweep_summary.csv",
+      "name": "26_lambda_init_sweep_summary.csv",
+      "size_kb": 1.19,
+      "mtime": "2025-10-15T20:24:49.534969"
+    },
+    {
+      "path": "/content/logs/promising/26_lambda_init_sweep_summary_filtered.csv",
+      "name": "26_lambda_init_sweep_summary_filtered.csv",
+      "size_kb": 1.19,
+      "mtime": "2025-10-15T20:24:53.811334"
+    },
+    {
+      "path": "/content/logs/promising/26_noffill_L_comb_params_bootstrap.csv",
+      "name": "26_noffill_L_comb_params_bootstrap.csv",
+      "size_kb": 15.13,
+      "mtime": "2025-10-15T20:09:50.709199"
+    },
+    {
+      "path": "/content/logs/promising/26_noffill_L_comb_params_bootstrap_summary.csv",
+      "name": "26_noffill_L_comb_params_bootstrap_summary.csv",
+      "size_kb": 0.26,
+      "mtime": "2025-10-15T20:09:50.712200"
+    },
+    {
+      "path": "/content/logs/promising/26_noffill_cmp_summary.csv",
+      "name": "26_noffill_cmp_summary.csv",
+      "size_kb": 0.41,
+      "mtime": "2025-10-15T19:59:47.327664"
+    },
+    {
+      "path": "/content/logs/promising/26_res_resampled_summary.csv",
+      "name": "26_res_resampled_summary.csv",
+      "size_kb": 0.34,
+      "mtime": "2025-10-15T19:57:43.847118"
+    },
+    {
+      "path": "/content/logs/promising/26_summary_kappa.csv",
+      "name": "26_summary_kappa.csv",
+      "size_kb": 0.26,
+      "mtime": "2025-10-15T19:38:19.262650"
+    },
+    {
+      "path": "/content/logs/promising/manifest.json",
+      "name": "manifest.json",
+      "size_kb": 2.6,
+      "mtime": "2025-10-15T19:14:32.613800"
+    },
+    {
+      "path": "/content/logs/promising/validation_bootstrap_params.csv",
+      "name": "validation_bootstrap_params.csv",
+      "size_kb": 35.23,
+      "mtime": "2025-10-15T21:47:29.617624"
+    }
+  ],
+  "csv_preview": {
+    "26_final_bootstrap_params.csv": {
+      "shape": [
+        500,
+        4
+      ],
+      "columns": [
+        "a",
+        "b",
+        "m",
+        "kappa"
+      ]
+    },
+    "26_final_bootstrap_summary.csv": {
+      "shape": [
+        4,
+        8
+      ],
+      "columns": [
+        "Unnamed: 0",
+        "median",
+        "q025",
+        "q975",
+        "q25",
+        "q75",
+        "std",
+        "count_valid"
+      ]
+    },
+    "26_lambda_all_aggregated_summary.csv": {
+      "shape": [
+        3,
+        23
+      ],
+      "columns": [
+        "lambda_b",
+        "lambda_k",
+        "count_valid",
+        "a_median",
+        "a_q25",
+        "a_q75",
+        "a_std",
+        "b_median",
+        "b_q25",
+        "b_q75",
+        "b_std",
+        "m_median",
+        "m_q25",
+        "m_q75",
+        "m_std",
+        "kappa_median",
+        "kappa_q25",
+        "kappa_q75",
+        "kappa_std",
+        "mse_penalized_median",
+        "mse_penalized_q25",
+        "mse_penalized_q75",
+        "mse_penalized_std"
+      ]
+    },
+    "26_lambda_init_sweep_summary.csv": {
+      "shape": [
+        5,
+        22
+      ],
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a",
+        "a.1",
+        "a.2",
+        "a.3",
+        "b",
+        "b.1",
+        "b.2",
+        "b.3",
+        "m",
+        "m.1",
+        "m.2",
+        "m.3",
+        "kappa",
+        "kappa.1",
+        "kappa.2",
+        "kappa.3",
+        "mse_penalized",
+        "mse_penalized.1",
+        "mse_penalized.2",
+        "mse_penalized.3"
+      ]
+    },
+    "26_lambda_init_sweep_summary_filtered.csv": {
+      "shape": [
+        5,
+        22
+      ],
+      "columns": [
+        "Unnamed: 0",
+        "Unnamed: 1",
+        "a",
+        "a.1",
+        "a.2",
+        "a.3",
+        "b",
+        "b.1",
+        "b.2",
+        "b.3",
+        "m",
+        "m.1",
+        "m.2",
+        "m.3",
+        "kappa",
+        "kappa.1",
+        "kappa.2",
+        "kappa.3",
+        "mse_penalized",
+        "mse_penalized.1",
+        "mse_penalized.2",
+        "mse_penalized.3"
+      ]
+    },
+    "26_noffill_L_comb_params_bootstrap.csv": {
+      "shape": [
+        200,
+        4
+      ],
+      "columns": [
+        "a",
+        "b",
+        "m",
+        "kappa"
+      ]
+    },
+    "26_noffill_L_comb_params_bootstrap_summary.csv": {
+      "shape": [
+        4,
+        4
+      ],
+      "columns": [
+        "Unnamed: 0",
+        "median",
+        "2.5%",
+        "97.5%"
+      ]
+    },
+    "26_noffill_cmp_summary.csv": {
+      "shape": [
+        2,
+        7
+      ],
+      "columns": [
+        "Unnamed: 0",
+        "kappa_grid_best",
+        "mse_grid_best",
+        "joint_success",
+        "params_joint",
+        "mse_joint_plain",
+        "mse_joint_penalized"
+      ]
+    },
+    "26_res_resampled_summary.csv": {
+      "shape": [
+        2,
+        6
+      ],
+      "columns": [
+        "Unnamed: 0",
+        "kappa_grid_best",
+        "mse_grid_best",
+        "joint_success",
+        "params_joint",
+        "mse_joint"
+      ]
+    },
+    "26_summary_kappa.csv": {
+      "shape": [
+        9,
+        2
+      ],
+      "columns": [
+        "Unnamed: 0",
+        "0"
+      ]
+    },
+    "validation_bootstrap_params.csv": {
+      "shape": [
+        500,
+        4
+      ],
+      "columns": [
+        "a",
+        "b",
+        "m",
+        "kappa"
+      ]
+    }
+  },
+  "json_preview": {
+    "manifest.json": {
+      "keys": [
+        "versions",
+        "seed",
+        "fitted_params",
+        "metrics",
+        "files"
+      ]
+    }
+  }
+}
